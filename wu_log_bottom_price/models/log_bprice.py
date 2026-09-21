@@ -12,6 +12,7 @@ class NrsBottomPriceWizard(models.TransientModel):
     _inherit = 'nrs.bottom.price.wizard'
 
     def confirm(self):
+    	# aaaa
         res = super(NrsBottomPriceWizard, self).confirm()
         user = self.env.user.name
         msgs = []
