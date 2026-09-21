@@ -1,12 +1,12 @@
 {
-    'name': 'Inherit Vbill Custom',
-    'summary': """Inherit Vbill""",
+    'name': 'Inherit Bottom Price',
+    'summary': """Inherit Bottom Price""",
     'version': '0.0.1',
     'author': 'Wiza',
-    'description': """Inherit Vbill""",
-    'depends': ['account'],
+    'description': """Inherit Bottom Price""",
+    'depends': ['nurosoft_wu_bottom_price', 'sale'],
     'data': [
-        'views/v_bill_view.xml'
+        # 'views/b_price.xml'
     ],
     'installable': True,
     'auto_install': False,
